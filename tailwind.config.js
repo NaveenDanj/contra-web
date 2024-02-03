@@ -6,12 +6,12 @@ export default {
   ],
   theme: {
     extend: {},
-  },
-
-  extend: {
     backgroundImage : {
       astral : 'url(\'/public/background/astral.jpg\')'
-    }
+    },
+    fontFamily: {
+      rajdhani: ['Rajdhani', 'sans-serif'],
+    },
   },
 
   plugins: [],
