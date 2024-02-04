@@ -3,7 +3,7 @@ import Card from './components/Game/Card';
 import HelthBar from './components/Game/HelthBar';
 import UserCard from './components/Game/UserCard';
 import ChooseDeck from './components/Game/Dialog/ChooseDeck';
-
+import ElectricBoltIcon from '@mui/icons-material/ElectricBolt';
 
 function App() {
 
@@ -12,6 +12,9 @@ function App() {
       className="tw-flex tw-justify-between tw-items-center tw-w-screen tw-h-[100vh] tw-flex-col tw-overflow-x-hidden tw-overflow-y-hidden" 
       style={{ background : 'url(\'./background/astral.jpg\')' , backgroundSize:'cover' , backgroundRepeat : 'no-repeat' , backgroundPosition: 'center' }}
     >
+      <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} className=' tw-absolute tw-top-[42%] tw-left-[78%] tw-my-auto tw-ml-1 tw-bg-white tw-backdrop-filter hover:tw-border-[#733750] tw-flex tw-justify-center tw-items-center tw-backdrop-blur-lg tw-bg-opacity-10  tw-w-[48px]  tw-h-[48px] tw-rounded-full tw-cursor-pointer tw-border-[2px]'>
+        <ElectricBoltIcon />
+      </motion.div>
       
       <div className="tw-w-full tw-flex tw-justify-center tw-items-center tw-py-1 tw-px-1 tw-overflow-x-hidden tw-overflow-y-hidden ">
         <HelthBar />
