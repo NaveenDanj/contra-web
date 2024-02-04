@@ -6,8 +6,8 @@ function Card() {
 
       <Tilt>
         <div 
-          style={{ background : 'url(\'./cards/Ace.png\')' , backgroundSize:'cover' , backgroundRepeat : 'no-repeat'}} 
-          className="tw-w-[250px] tw-h-[320px] tw-p-1"
+          style={{ background : 'url(\'./cards/Ace.png\')' , backgroundSize:'contain' , backgroundRepeat : 'no-repeat'}} 
+          className="sm:tw-w-[190px] sm:tw-h-[235px] tw-w-[200px]  tw-h-[250px]"
         >
             
         </div>

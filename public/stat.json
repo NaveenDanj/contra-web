@@ -1,0 +1,336 @@
+{
+    "deck": [
+      {
+        "name": "Ace",
+        "type": "Hero",
+        "attack": 5,
+        "defense": 5,
+        "cost": 6,
+        "filename": "Ace.png",
+        "rarity": "Epic",
+        "flavorText": "The legendary hero, feared by villains and revered by all.",
+        "abilities": ["Flying", "Double Strike"]
+      },
+      {
+        "name": "Bakezori",
+        "type": "Creature",
+        "attack": 3,
+        "defense": 2,
+        "cost": 4,
+        "filename": "Bakezori.png",
+        "rarity": "Common",
+        "flavorText": "A mischievous creature that roams the enchanted forests.",
+        "abilities": ["Stealth"]
+      },
+      {
+        "name": "Black_Solus",
+        "type": "Villain",
+        "attack": 7,
+        "defense": 4,
+        "cost": 8,
+        "filename": "Black_Solus.png",
+        "rarity": "Legendary",
+        "flavorText": "The dark lord who seeks to plunge the world into eternal night.",
+        "abilities": ["Fear", "Life Drain"]
+      },
+      {
+        "name": "Calligrapher",
+        "type": "Support",
+        "attack": 1,
+        "defense": 4,
+        "cost": 3,
+        "filename": "Calligrapher.png",
+        "rarity": "Uncommon",
+        "flavorText": "A skilled scribe with the power to enhance allies' abilities.",
+        "abilities": ["Enhance: +1 Attack to adjacent creatures"]
+      },
+      {
+        "name": "Chakri_Avatar",
+        "type": "Creature",
+        "attack": 4,
+        "defense": 3,
+        "cost": 5,
+        "filename": "Chakri_Avatar.png",
+        "rarity": "Rare",
+        "flavorText": "An embodiment of celestial energy, bringing balance to the battlefield.",
+        "abilities": ["Healing Aura"]
+      },
+      {
+        "name": "Coalfist",
+        "type": "Creature",
+        "attack": 2,
+        "defense": 6,
+        "cost": 5,
+        "filename": "Coalfist.png",
+        "rarity": "Common",
+        "flavorText": "A powerful golem forged in the heart of a blazing volcano.",
+        "abilities": ["Magma Armor"]
+      },
+      {
+        "name": "Desolator",
+        "type": "Villain",
+        "attack": 6,
+        "defense": 5,
+        "cost": 7,
+        "filename": "Desolator.png",
+        "rarity": "Rare",
+        "flavorText": "A harbinger of destruction, leaving nothing but despair in its wake.",
+        "abilities": ["Corruption", "Area of Effect"]
+      },
+      {
+        "name": "Dusk_Rigger",
+        "type": "Creature",
+        "attack": 3,
+        "defense": 2,
+        "cost": 4,
+        "filename": "Dusk_Rigger.png",
+        "rarity": "Uncommon",
+        "flavorText": "A stealthy rogue adept at navigating the shadows.",
+        "abilities": ["Backstab"]
+      },
+      {
+        "name": "Flamewreath",
+        "type": "Creature",
+        "attack": 5,
+        "defense": 3,
+        "cost": 6,
+        "filename": "Flamewreath.png",
+        "rarity": "Rare",
+        "flavorText": "A fiery elemental with a wreath of flames, leaving scorching trails.",
+        "abilities": ["Burn"]
+      },
+      {
+        "name": "Furiosa",
+        "type": "Hero",
+        "attack": 4,
+        "defense": 4,
+        "cost": 5,
+        "filename": "Furiosa.png",
+        "rarity": "Epic",
+        "flavorText": "A fierce warrior known for her unyielding determination in battle.",
+        "abilities": ["Berserk"]
+      },
+      {
+        "name": "Geomancer",
+        "type": "Spellcaster",
+        "attack": 3,
+        "defense": 2,
+        "cost": 4,
+        "filename": "Geomancer.png",
+        "rarity": "Common",
+        "flavorText": "A master of manipulating the earth's elements to control the battlefield.",
+        "abilities": ["Earthquake"]
+      },
+      {
+        "name": "Gore_Horn",
+        "type": "Creature",
+        "attack": 6,
+        "defense": 4,
+        "cost": 7,
+        "filename": "Gore_Horn.png",
+        "rarity": "Rare",
+        "flavorText": "A fearsome creature with horns that can pierce even the toughest armor.",
+        "abilities": ["Charge"]
+      },
+      {
+        "name": "Heartseeker",
+        "type": "Creature",
+        "attack": 2,
+        "defense": 1,
+        "cost": 3,
+        "filename": "Heartseeker.png",
+        "rarity": "Common",
+        "flavorText": "A swift and nimble attacker, aiming for the hearts of its foes.",
+        "abilities": ["Pierce"]
+      },
+      {
+        "name": "Jade_Monk",
+        "type": "Spellcaster",
+        "attack": 4,
+        "defense": 3,
+        "cost": 5,
+        "filename": "Jade_Monk.png",
+        "rarity": "Uncommon",
+        "flavorText": "A serene monk harnessing the power of ancient jade magic.",
+        "abilities": ["Healing Wave"]
+      },
+      {
+        "name": "Kaido_Expert",
+        "type": "Hero",
+        "attack": 5,
+        "defense": 5,
+        "cost": 6,
+        "filename": "Kaido_Expert.png",
+        "rarity": "Epic",
+        "flavorText": "A legendary expert in martial arts, feared by foes and admired by allies.",
+        "abilities": ["Counter"]
+      },
+      {
+        "name": "Katara",
+        "type": "Hero",
+        "attack": 4,
+        "defense": 3,
+        "cost": 5,
+        "filename": "Katara.png",
+        "rarity": "Rare",
+        "flavorText": "A skilled and agile warrior, known for her swift and precise strikes.",
+        "abilities": ["Ice Shards"]
+      },
+      {
+        "name": "Kindling",
+        "type": "Spell",
+        "attack": 3,
+        "defense": 1,
+        "cost": 4,
+        "filename": "Kindling.png",
+        "rarity": "Common",
+        "flavorText": "Ignite the flames of destruction with this powerful fire spell.",
+        "abilities": ["Burn"]
+      },
+      {
+        "name": "Ki_Beholder",
+        "type": "Creature",
+        "attack": 2,
+        "defense": 5,
+        "cost": 5,
+        "filename": "Ki_Beholder.png",
+        "rarity": "Uncommon",
+        "flavorText": "An ancient creature with multiple eyes, capable of seeing hidden truths.",
+        "abilities": ["Vigilance"]
+      },
+      {
+        "name": "Lantern_Fox",
+        "type": "Creature",
+        "attack": 3,
+        "defense": 2,
+        "cost": 4,
+        "filename": "Lantern_Fox.png",
+        "rarity": "Uncommon",
+        "flavorText": "A mystical fox carrying the glow of lanterns, guiding allies in the dark.",
+        "abilities": ["Illuminate"]
+      },
+      {
+        "name": "Mizuchi",
+        "type": "Creature",
+        "attack": 5,
+        "defense": 4,
+        "cost": 6,
+        "filename": "Mizuchi.png",
+        "rarity": "Rare",
+        "flavorText": "A water serpent with a mighty roar that can summon tidal waves.",
+        "abilities": ["Aqua Roar"]
+      },
+      {
+        "name": "Orizuru",
+        "type": "Creature",
+        "attack": 2,
+        "defense": 1,
+        "cost": 3,
+        "filename": "Orizuru.png",
+        "rarity": "Common",
+        "flavorText": "A crane with paper wings, symbolizing peace and grace.",
+        "abilities": ["Peaceful Flight"]
+      },
+      {
+        "name": "Scarlet_Viper",
+        "type": "Villain",
+        "attack": 6,
+        "defense": 5,
+        "cost": 7,
+        "filename": "Scarlet_Viper.png",
+        "rarity": "Rare",
+        "flavorText": "A deadly assassin with a venomous bite and a cloak of scarlet shadows.",
+        "abilities": ["Toxic Strike"]
+      },
+      {
+        "name": "Storm_Kage",
+        "type": "Hero",
+        "attack": 4,
+        "defense": 4,
+        "cost": 5,
+        "filename": "Storm_Kage.png",
+        "rarity": "Epic",
+        "flavorText": "A master of lightning and storms, striking fear into the hearts of enemies.",
+        "abilities": ["Thunderstrike"]
+      },
+      {
+        "name": "Suzumebachi",
+        "type": "Creature",
+        "attack": 3,
+        "defense": 2,
+        "cost": 4,
+        "filename": "Suzumebachi.png",
+        "rarity": "Uncommon",
+        "flavorText": "A giant hornet with a deadly sting, moving swiftly through the air.",
+        "abilities": ["Venomous Flight"]
+      },
+      {
+        "name": "Tusk_Boar",
+        "type": "Creature",
+        "attack": 5,
+        "defense": 3,
+        "cost": 6,
+        "filename": "Tusk_Boar.png",
+        "rarity": "Rare",
+        "flavorText": "A boar with razor-sharp tusks, charging through enemies with immense power.",
+        "abilities": ["Trample"]
+      },
+      {
+        "name": "Twilight_Fox",
+        "type": "Creature",
+        "attack": 2,
+        "defense": 1,
+        "cost": 3,
+        "filename": "Twilight_Fox.png",
+        "rarity": "Common",
+        "flavorText": "A fox that thrives in the shadows, emerging at twilight to surprise its prey.",
+        "abilities": ["Ambush"]
+      },
+      {
+        "name": "Void_Talon",
+        "type": "Villain",
+        "attack": 7,
+        "defense": 4,
+        "cost": 8,
+        "filename": "Void_Talon.png",
+        "rarity": "Legendary",
+        "flavorText": "A creature from the void, wielding dark energies that consume all in its path.",
+        "abilities": ["Void Rift"]
+      },
+      {
+        "name": "Whiplash",
+        "type": "Creature",
+        "attack": 4,
+        "defense": 3,
+        "cost": 5,
+        "filename": "Whiplash.png",
+        "rarity": "Uncommon",
+        "flavorText": "A serpent with a tail that moves like a whip, striking with incredible speed.",
+        "abilities": ["Rapid Strike"]
+      },
+      {
+        "name": "Widowmaker",
+        "type": "Villain",
+        "attack": 6,
+        "defense": 5,
+        "cost": 7,
+        "filename": "Widowmaker.png",
+        "rarity": "Rare",
+        "flavorText": "A mysterious and deadly assassin with a venomous touch.",
+        "abilities": ["Shadow Step"]
+      },
+      {
+        "name": "Xho",
+        "type": "Spellcaster",
+        "attack": 3,
+        "defense": 2,
+        "cost": 4,
+        "filename": "Xho.png",
+        "rarity": "Common",
+        "flavorText": "A wise and ancient mage, wielding the power of the arcane.",
+        "abilities": ["Arcane Knowledge"]
+      }
+    ]
+  }
+        
+  
